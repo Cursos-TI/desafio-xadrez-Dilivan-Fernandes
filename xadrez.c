@@ -20,7 +20,7 @@ const int movimentacaoBispo =5;  // Constante com o limite de movimentação do 
 printf("\n.........................Movimentação do Bispo..............................\n\n"); // Texto indicatívo.
 
     printf("Bispo: 5 casas na diagonal superior direita\n\n"); // Texto indicatívo.
-        for (int i = 1; i <= movimentacaoBispo ; i++)
+        for (int i = 1; i <= movimentacaoBispo ; i++)//  Laço for para fazer a contagem.
         {       
             printf("Cima,Direita \n",i);//  Printa o resultado natela.
         }
@@ -51,9 +51,9 @@ printf("\nMovimento finalizado.\n");// Texto indicatívo.
 printf("\n.........................Movimentação da Rainha.............................\n\n");// Texto indicatívo.
 
 printf("Rainha: 8 casas para a esquerda\n\n");// Texto indicatívo.
-const movimentacaoRainha =8;
+const movimentacaoRainha =8;// Constante com o limite de movimentação da rainha.
 
-    for(int i =1; i <= movimentacaoRainha; i++)
+    for(int i =1; i <= movimentacaoRainha; i++)//  Laço for para fazer a contagem.
     {
          printf("Esquerda \n",i);//  Printa o resultado natela.
     }
